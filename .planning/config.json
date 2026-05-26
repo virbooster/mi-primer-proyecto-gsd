@@ -1,0 +1,11 @@
+{
+  "project_name": "mi_primer_project_GSD",
+  "tech_stack": {
+    "backend": "Java",
+    "frontend": "React"
+  },
+  "workflow": {
+    "research_phase": false,
+    "ui_first": true
+  }
+}
