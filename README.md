@@ -10,18 +10,26 @@ Este es un proyecto full-stack desarrollado bajo la metodología GSD (Getting St
 
 ## Guía Rápida: Cómo Levantar el Proyecto
 
-### 1. Levantar el Backend (Spring Boot)
-Abre una terminal en la raíz del proyecto y ejecuta:
+### Opción A: Lanzamiento Automático (Recomendado)
+Puedes levantar tanto el backend como el frontend con un solo script de PowerShell desde la raíz:
 
+```powershell
+./start-project.ps1
+```
+
+### Opción B: Lanzamiento Manual
+Si prefieres hacerlo por separado:
+
+#### 1. Levantar el Backend (Spring Boot)
+Abre una terminal en la raíz del proyecto y ejecuta:
 ```powershell
 cd backend
 ./mvnw spring-boot:run
 ```
 *Puerto por defecto: 8080*
 
-### 2. Levantar el Frontend (React + Vite)
+#### 2. Levantar el Frontend (React + Vite)
 Abre otra terminal y ejecuta:
-
 ```powershell
 cd frontend
 npm install
